@@ -38,20 +38,15 @@ y<sub>0</sub>: y inicial
 
 K: ordem de métodos de múltiplos passos
 # Execução
-entrada.txt:
-> runge_kutta 0 0 0.1 20 1-t+4*y
 
-> adam_bashforth 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 5
-
-> adam_bashforth_by_euler 0 0 0.1 20 1-t+4*y 6
-
-> adam_multon 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
-
-> adam_multon_by_euler 0 0 0.1 20 1-t+4*y 6
-
-> formula_inversa 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
-
-> formula_inversa_by_euler 0 0 0.1 20 1-t+4*y 6
+### entrada.txt:
+    runge_kutta 0 0 0.1 20 1-t+4*y
+    adam_bashforth 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 5
+    adam_bashforth_by_euler 0 0 0.1 20 1-t+4*y 6
+    adam_multon 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
+    adam_multon_by_euler 0 0 0.1 20 1-t+4*y 6
+    formula_inversa 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
+    formula_inversa_by_euler 0 0 0.1 20 1-t+4*y 6
 
 ```sh
 julia projeto.jl
