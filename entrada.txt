@@ -1,0 +1,4 @@
+euler 1 0 0.05 10 1-t+4*y
+euler_inverso 1 0 0.05 10 1-t+4*y
+euler_aprimorado 1 0 0.05 10 1-t+4*y
+runge_kutta 1 0 0.05 10 1-t+4*y
